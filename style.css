@@ -1671,6 +1671,10 @@ and (max-width: 375px) {
 .about-banner h1 {
 font-size: 30px;
   }
+  .about-banner {
+    margin-top:70px;
+    padding-top:40px;
+  }
 }
 
 @media (min-width:375px)
@@ -1678,19 +1682,16 @@ and (max-width: 426px) {
 .about-banner h1 {
 font-size: 32px;
   }
-}
-
-@media (min-width:320px)
-and (max-width: 375px) {
-.about-banner {
-padding-top:40px;
+  .about-banner {
+    margin-top:70px;
+    padding-top:50px;
   }
 }
 
-@media (min-width:375px)
-and (max-width: 426px) {
-.about-banner {
-padding-top:50px;
+@media (min-width:426px)
+and (max-width:768px) {
+  .about-banner {
+    margin-top:70px;
   }
 }
 
